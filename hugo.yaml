@@ -18,7 +18,7 @@ favicon: favicon.ico
 
 #Homepage script
 params:
-  defaultTheme: dark
+  disableThemeToggle: false
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
@@ -42,4 +42,10 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
+  - identifier: aboutpage
+    name: About
+    url: /about/
+    weight: 30
+
+
 
