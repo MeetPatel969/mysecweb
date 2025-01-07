@@ -1,8 +1,14 @@
-baseURL: https://example.org/
+baseURL: https://meet-sec.pages.dev
 languageCode: en-us
-title: My New Hugo Site
+title: meet-sec.com
 theme: ["PaperMod"]
 
+#Dark/light mode
+defaultTheme: auto
+disableThemeToggle: false
+
+
+#Favicon
 assets:
   favicon16x16: /assets/favicon-16x16.png
   favicon32x32: /assets/favicon-32x32.png
@@ -10,6 +16,7 @@ assets:
 
 favicon: favicon.ico
 
+#Homepage script
 params:
   defaultTheme: dark
   homeInfoParams:
@@ -17,9 +24,14 @@ params:
     Content: >-
       Welcome to my website.      
   socialIcons:
-    - name: email
-      url: 'mailto:some@emailadres.com'
+    - name: github
+      url: "https://github.com/MeetPatel969"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/meet-patel-893115284/"
+    - name: tryhackme
+      url: "https://tryhackme.com/r/p/0xM33t"
 
+#Menu script      
 menu:
   main:
   - identifier: home
@@ -30,3 +42,4 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
+
